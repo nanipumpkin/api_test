@@ -1,5 +1,9 @@
+## Install dependencies 
+`pip install -r requirements`
+
 ## Fix jupyter venv issue
 `pip install jupyter`
+
 ## API test
 `pip install requests`
 
