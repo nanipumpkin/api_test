@@ -1,29 +1,20 @@
+# Looking for Jobs through Web Scrapping Tests
+Web scrapping tests using Requests, Selenium and Beautiful Soup
+
+## Create environment
+`python3 -m venv venv`
 ## Install dependencies 
 `pip install -r requirements`
 
-## Fix jupyter venv issue
-`pip install jupyter`
-
-## API test
-`pip install requests`
-
-## Selenium test
-
-`pip install selenium`
-
-`pip install pandas`
-
-`pip install chromedriver`
-
-### Setup chromedriver (ubuntu)
+## Setup chromedriver (ubuntu)
 `sudo apt-get install chromium-chromedriver`
 
 ### Run ETL
+`cd etl`
 `python3 execute.py`
 
 ## References
 [Viola Mao]('https://maoviola.medium.com/a-complete-guide-to-web-scraping-linkedin-job-postings-ad290fcaa97f')
 [Selenium]('https://www.selenium.dev/documentation/webdriver/')
-
-https://selenium-python.readthedocs.io/locating-elements.html
-https://www.perfecto.io/blog/xpath-in-selenium
+[Selenium with Python](https://selenium-python.readthedocs.io/locating-elements.html)
+[BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
