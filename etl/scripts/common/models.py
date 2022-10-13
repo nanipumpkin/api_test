@@ -1,1 +1,0 @@
-#the common folder stores python scripts shared among other scripts such as database open session or tables class definition
