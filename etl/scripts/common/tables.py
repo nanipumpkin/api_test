@@ -23,7 +23,7 @@ class JobCleanAll(Base):
 
     id = Column(Integer, primary_key=True)
     title = Column(String(255))
-    date_posted = Column(String(55))
+    date_posted = Column(Date)
     experience_level = Column(String(55))
     type = Column(String(55))
     location = Column(String(55))
